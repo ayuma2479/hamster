@@ -17,6 +17,16 @@ Web版を実行する場合:
 flutter run -d chrome
 ```
 
+## GitHub Pagesへ公開
+
+```sh
+npm install
+npm run build:web
+npm run deploy
+```
+
+公開先は `https://ayuma2479.github.io/hamster/` です。
+
 ## 構成
 
 - `lib/main.dart`: ガチャ画面、抽選処理、当たり・ハズレ演出
